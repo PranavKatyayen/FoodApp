@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF6347"
+    android:padding="15dp"
+    android:theme="@style/AppTheme"
+    tools:context=".activity.CompletionActivity">
+
+    <ImageView
+        android:id="@+id/imgConfirm"
+        android:layout_width="141dp"
+        android:layout_height="171dp"
+        android:layout_above="@id/txtConfirm"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_confirm" />
+
+    <TextView
+        android:id="@+id/txtConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Your order has been successfully placed!"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/orderCompletion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="#FFC7BD"
+        android:paddingHorizontal="40dp"
+        android:text="Ok"
+        android:textColor="#FF6347"
+        android:textSize="18sp" />
+
+</RelativeLayout>
